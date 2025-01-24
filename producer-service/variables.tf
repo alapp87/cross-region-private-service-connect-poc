@@ -7,7 +7,7 @@ variable "project_id" {
 variable "region" {
   type        = string
   description = "Used region for regional resources"
-  default     = "us-central1"
+  default     = "southamerica-east1"
 }
 
 variable "accepted_consumers" {

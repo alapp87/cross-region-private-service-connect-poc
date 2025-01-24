@@ -13,13 +13,13 @@ variable "region" {
 variable "psc_endpoint_region" {
   type        = string
   description = "Region used for the PSC endpoint"
-  default     = "us-central1"
+  default     = "southamerica-east1"
 }
 
 variable "service_attachment_id" {
   type        = string
   description = "Service Attachment ID of the published service."
-  default     = "projects/efx-psc-poc-a/regions/us-central1/serviceAttachments/apache-web-server"
+  default     = "projects/efx-psc-poc-a/regions/southamerica-east1/serviceAttachments/apache-web-server"
 }
 
 variable "source_ip_ranges" {
